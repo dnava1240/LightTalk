@@ -33,7 +33,7 @@
         <scene sceneID="ByV-RD-1xZ">
             <objects>
                 <collectionViewController id="Tl7-ha-dJs" customClass="CustomCollectionViewController" customModule="Template" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="ZKu-pK-oGP">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="ZKu-pK-oGP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -50,6 +50,12 @@
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="118" height="118"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="skate1" translatesAutoresizingMaskIntoConstraints="NO" id="Qu5-cn-dFz">
+                                            <rect key="frame" x="-25" y="0.0" width="240" height="128"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                    </subviews>
                                 </view>
                             </collectionViewCell>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CustomCollectionViewCell" id="sBk-IB-UdH" customClass="CustomCollectionViewCell" customModule="Template" customModuleProvider="target">
@@ -58,6 +64,12 @@
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="118" height="118"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="skate" translatesAutoresizingMaskIntoConstraints="NO" id="Jq6-tL-aHS">
+                                            <rect key="frame" x="-6" y="0.0" width="130" height="118"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                    </subviews>
                                 </view>
                             </collectionViewCell>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CustomCollectionViewCell" id="Dm0-8W-e5T" customClass="CustomCollectionViewCell" customModule="Template" customModuleProvider="target">
@@ -66,6 +78,12 @@
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="118" height="118"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bboy" translatesAutoresizingMaskIntoConstraints="NO" id="h8y-h1-dRV">
+                                            <rect key="frame" x="0.0" y="0.0" width="143" height="128"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                    </subviews>
                                 </view>
                             </collectionViewCell>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CustomCollectionViewCell" id="xDM-X8-xxD" customClass="CustomCollectionViewCell" customModule="Template" customModuleProvider="target">
@@ -74,6 +92,12 @@
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="118" height="118"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bboy 2" translatesAutoresizingMaskIntoConstraints="NO" id="tVC-L5-X8r">
+                                            <rect key="frame" x="0.0" y="0.0" width="146" height="118"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                    </subviews>
                                 </view>
                             </collectionViewCell>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CustomCollectionViewCell" id="sgR-4G-sab" customClass="CustomCollectionViewCell" customModule="Template" customModuleProvider="target">
@@ -82,6 +106,12 @@
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="118" height="118"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nike" translatesAutoresizingMaskIntoConstraints="NO" id="hFf-k4-qam">
+                                            <rect key="frame" x="0.0" y="0.0" width="118" height="118"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                    </subviews>
                                 </view>
                             </collectionViewCell>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CustomCollectionViewCell" id="tVU-4s-UPb" customClass="CustomCollectionViewCell" customModule="Template" customModuleProvider="target">
@@ -90,6 +120,12 @@
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="118" height="118"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ufV-iY-B5y">
+                                            <rect key="frame" x="-61" y="-10" width="240" height="128"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                    </subviews>
                                 </view>
                             </collectionViewCell>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CustomCollectionViewCell" id="kV1-h9-aF8" customClass="CustomCollectionViewCell" customModule="Template" customModuleProvider="target">
@@ -235,7 +271,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9Sq-Jf-Jki" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Collection View" image="ProfileIcon" id="d5X-zo-oYM"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Kj3-3O-u8b">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Kj3-3O-u8b">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -254,7 +290,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jvN-VA-gDQ" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Table View" image="HomeIcon" id="5Qg-T5-kaM"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="ZSF-ZR-Lxc">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZSF-ZR-Lxc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -273,7 +309,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cKH-rb-CvU" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Map View" image="MapIcon" id="4Fg-dR-myy"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="QXp-y6-nUB">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QXp-y6-nUB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -293,6 +329,11 @@
         <image name="MapIcon" width="50" height="50"/>
         <image name="MyLocationIcon" width="60" height="60"/>
         <image name="ProfileIcon" width="50" height="50"/>
+        <image name="bboy" width="130" height="97"/>
+        <image name="bboy 2" width="275" height="183"/>
+        <image name="nike" width="225" height="225"/>
         <image name="play button icon-1" width="305" height="176"/>
+        <image name="skate" width="260" height="194"/>
+        <image name="skate1" width="275" height="183"/>
     </resources>
 </document>
