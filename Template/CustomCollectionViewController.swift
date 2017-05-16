@@ -41,7 +41,7 @@ class CustomCollectionViewController: UICollectionViewController {
     
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 8
+        return 6
     }
     
     
@@ -51,7 +51,8 @@ class CustomCollectionViewController: UICollectionViewController {
     }
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CustomCollectionViewCell", for: indexPath) as! CustomCollectionViewCell
+        let id = "CustomCollectionViewCell"+String(indexPath.item + indexPath.section * 3 % 12)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: id, for: indexPath) as! CustomCollectionViewCell
         
         // Configure the cell
         
@@ -88,6 +89,12 @@ class CustomCollectionViewController: UICollectionViewController {
     
     }
     */
+    
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "closeupVC")
+
+        navigationController?.pushViewController(vc!, animated: true)
+    }
 
     @IBAction func onSignOutButton(_ sender: UIBarButtonItem) {
         
